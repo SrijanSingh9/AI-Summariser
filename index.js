@@ -5,7 +5,7 @@ const path = require("path");
 
 const app = express();
 const PORT = 3000;
-const apiKey = "AIzaSyARtwMOt8j822f7a6_M3yoMtoEZ6TGcNeQ";
+const apiKey = "Your API Key :>";
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.json());
