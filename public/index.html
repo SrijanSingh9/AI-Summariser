@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Generator with AI</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf-autotable"></script>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f9; margin: 0; padding: 20px;">
+  <h1 style="text-align: center; color: #333; margin-bottom: 20px;">Generate a PDF with AI Summary</h1>
+  <form id="pdfForm" style="max-width: 600px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <label for="userInputs" style="display: block; font-weight: bold; margin-bottom: 10px; color: #555;">Enter your text/Para:</label>
+    <textarea 
+      id="userInputs" 
+      rows="10" 
+      cols="50" 
+      placeholder="Enter your content..." 
+      style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; box-sizing: border-box; margin-bottom: 15px; resize: none;">
+    </textarea>
+    <button 
+      type="button" 
+      onclick="generatePDF()" 
+      style="display: block; width: 100%; padding: 10px; background-color: #007bff; color: #fff; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; text-align: center;">
+      Generate PDF
+    </button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
