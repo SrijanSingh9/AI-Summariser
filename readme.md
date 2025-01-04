@@ -53,7 +53,7 @@ To get your API key:
 
 Replace the placeholder in `index.js`:
 ```javascript
-const genAI = new GoogleGenerativeAI("YOUR_API_KEY_HERE");
+const apiKey = "Your API Key :>";
 ```
 
 ---
